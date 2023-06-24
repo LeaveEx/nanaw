@@ -12,9 +12,9 @@ class Config(object):
     SUPPORT_CHAT = "senzusupp"  # Your own group for support, do not add the @
     START_IMG = ""
     EVENT_LOGS = (-1001561812932)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    MONGO_DB_URI= "mongodb+srv://newsenzu:newsenzu@cluster0.m1mw8vk.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://cuzdcojj:2AN8Z057twoa-wDUIM5XIQsUTzqxkbqU@rajje.db.elephantsql.com/cuzdcojj"  # A sql database url from elephantsql.com
     CASH_API_KEY = (
         "D0ZCZ67KL8OTL0PY"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
