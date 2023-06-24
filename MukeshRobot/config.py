@@ -7,7 +7,7 @@ class Config(object):
     API_ID = "3330416" # integer value, dont use ""
     API_HASH = "551d747d492ad11a10054fbf672d16e3"
     TOKEN = "5262608425:AAEbUDcE2inIrSqmzdSTTJUDlVHeZF5pJw8"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 1680004937 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "senzusupp"  # Your own group for support, do not add the @
     START_IMG = ""
@@ -23,7 +23,7 @@ class Config(object):
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
     DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
+    DEV_USERS = [1680004937]  # User id of dev users
     DEMONS = []  # User id of support users
     TIGERS = []  # User id of tiger users
     WOLVES = []  # User id of whitelist users
